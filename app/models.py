@@ -98,5 +98,5 @@ class User(db.Model):
     name = db.Column(db.String(50))
     email = db.Column(db.String(60), nullable=False)
     password = db.Column(db.String(80), nullable=False)
-    favorites = db.Column(db.ARRAY(INTEGER()))
-    archiveds = db.Column(db.ARRAY(INTEGER()))
+    favorites = db.Column(db.ARRAY(Integer()))
+    archiveds = db.Column(db.ARRAY(Integer()))
